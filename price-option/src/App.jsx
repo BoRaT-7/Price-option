@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Navber from './Navber'
+import Grap from './Components/Graph/Grap'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +26,7 @@ function App() {
   </div>
 </div>
  <Navber></Navber>
+ <Grap></Grap>
     </>
   )
 }
